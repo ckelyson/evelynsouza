@@ -1,0 +1,162 @@
+.software {
+    background: #fff;
+    padding: 40px 4%;
+}
+
+.software h1 {
+    font-weight: 900;
+    padding: 20px ;
+}
+
+.interfaceSoftware {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+
+.word {
+    width: 100px;
+    transition: .4s;
+}
+
+.word:hover {
+    transform: scale(1.10);
+}
+
+.excel {
+    width: 100px;
+    transition: .4s;
+}
+
+.excel:hover {
+    transform: scale(1.10);
+}
+
+.powerPoint {
+    width: 100px;
+    transition: .4s;
+}
+
+.powerPoint:hover {
+    transform: scale(1.10);
+}
+
+.powerBI {
+    width: 110px;
+    transition: .4s;
+}
+
+.powerBI:hover {
+    transform: scale(1.10);
+}
+
+.icone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.icone p {
+    font-weight: 900;
+    font-size: 17px;
+}
+
+.msproject {
+    width: 120px;
+    transition: .4s;
+}
+
+.msproject:hover {
+    transform: scale(1.10);
+}
+
+.autoCad {
+    width: 110px;
+    transition: .4s;
+}
+
+.autoCad:hover {
+    transform: scale(1.10);
+}
+
+.inventor {
+    width: 110px;
+    transition: .4s;
+}
+
+.inventor:hover {
+    transform: scale(1.10);
+}
+
+.pdca {
+    width: 100px;
+    transition: .4s;
+}
+
+.pdca:hover {
+    transform: scale(1.10);
+}
+
+.cincoS {
+    width: 100px;
+    transition: .4s;
+}
+
+.cincoS:hover {
+    transform: scale(1.10);
+}
+
+.kaizen {
+    width: 100px;
+    transition: .4s;
+}
+
+.kaizen:hover {
+    transform: scale(1.10);
+}
+
+.wcm {
+    width: 100px;
+    transition: .4s;
+}
+
+.wcm:hover {
+    transform: scale(1.10);
+}
+
+.ferramentas {
+    background: #ffffff;
+    box-shadow: 0px 0px 100px #70a9ff;
+    border-radius: 3%;
+    transition: .3s;
+    margin: 10px;
+    text-align: center;
+}
+
+@media screen and (max-width:1020px) {
+    .software {
+        background: #fff;
+        padding: 40px 0;
+    }
+    .interfaceSoftware {
+        display: flex;
+        flex-direction: column;
+    }
+    .ferramentas:hover {
+        transform: scale(1.00);
+        box-shadow: 0px 0px 1px #277dff;
+    }
+    .ferramentas {
+        background: #ffffff;
+        text-align: center;
+        margin: 10px;
+        box-shadow: 0px 0px 1px #70a9ff;
+    }
+    .software h2 {
+        text-align: center;
+        font-size: 22px;
+        font-weight: 900;
+        padding: 20px ;
+    }
+}

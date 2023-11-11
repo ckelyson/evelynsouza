@@ -1,0 +1,50 @@
+.cursos {
+    background: #fff;
+    padding: 20px 4%;
+}
+
+.cursos h2 {
+    padding: 40px 20px;
+}
+
+.certificado {
+    width: 400px;
+    margin-top: 80px;
+    margin: 70px 110px ;
+}
+
+.curso {
+    display: flex;
+    flex-direction: column;
+    margin-top: 29px;
+}
+
+@media screen and (max-width:1020px) {
+    .cursos {
+        background: #fff;
+        padding: 20px 4%;
+    }
+    
+    .cursos h2 {
+        font-size: 25px;
+        padding: 40px 0;
+    }
+    .cursos h1 {
+        font-size: 20px;
+        font-weight: 900;
+        
+        margin: 5px;
+    }
+    .cursos p {
+        font-size: 14px;
+        text-align: justify;
+        font-weight: 400;
+        margin: 5px;
+    }
+    .certificado {
+        display: flex;
+        align-items: center;
+        width: 200px;
+        margin: 20px 80px;
+    }
+}

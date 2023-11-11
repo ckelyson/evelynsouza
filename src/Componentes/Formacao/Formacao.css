@@ -1,0 +1,72 @@
+.container {
+    background-image: url('../../assets/formacaoMobile1.jpg');
+    background-size: 110%;
+    padding: 80px 4%;
+}
+
+h2 {
+    color: #0058fc;
+    text-align: center;
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+.flexformacao {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.especialidades {
+    color: #ffffff;
+    margin-top: 40px;
+    font-size: 18px;
+}
+
+.paragrafo {
+    display: flex;
+    flex-direction: column;
+    padding: 0 2px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.faculdade {
+    font-weight: bold;
+    font-weight: 500;
+}
+
+.especialidades i {
+    font-size: 30px;
+}
+
+@media screen and (max-width: 1020px) {
+    .container {
+        padding: 60px 0;
+        margin: 0;
+        background-image: url('../../assets/formacaoMobile1.jpg');
+        background-size: 400%;
+    }
+    h2 {
+        font-size: 35px
+    }
+    h3 {
+        font-size: 18px;
+        font-weight: 800;
+    }
+    .especialidades {
+        display: flex;
+        flex-direction: column;
+        padding:  15px 6px ;
+    }
+    .especialidadesBox {
+        display: flex;        
+    }
+    .flexformacao {
+        margin: 0;
+        padding: 0;
+    }
+}

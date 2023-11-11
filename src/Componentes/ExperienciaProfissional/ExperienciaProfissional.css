@@ -1,0 +1,55 @@
+.experiencia {
+    background-image: url(../../assets/formacaoMobile1.jpg);
+    padding: 40px 4%;
+}
+
+.flexExperiencia {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.experiencias {
+    padding: 20px;
+    color: #ffffff81;
+}
+
+.experiencias h1 {
+    font-weight: 900;
+}
+
+.experiencias p {
+    padding: 0   ;
+}
+
+.experiencias li {
+    display: list-item;
+    list-style-type: disc;
+    margin-left: 40px;
+    text-indent: -1.5em;
+}
+
+@media screen and (max-width:1020px) {
+    .experiencia {
+        background-image: url('../../assets/formacaoMobile1.jpg');
+        padding: 5px 0;
+    }
+    .flexExperiencia {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    h2 {
+        font-size: 35px ;
+    }
+    .experiencias {
+        padding: 0;
+        margin-top: 40px;
+        margin: 20px 10px;
+    }
+    .experiencias h1 {
+        font-weight: 900;
+        text-align:left;
+    }
+}

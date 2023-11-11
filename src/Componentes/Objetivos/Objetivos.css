@@ -1,0 +1,62 @@
+.objetivos {
+    background: #ffffff;
+}
+
+.object {
+    margin: 100px 4%;
+    background: #ffffff;
+}
+
+.object h1{
+    color: #0057bb;
+    text-align: center;
+    font-size: 42px;
+}
+
+.object p{
+    color: #000000;
+    text-align:justify;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.imgEp {
+    display: flex;
+    margin: 20px;
+}
+
+.imgEp img {
+    margin: 0 30px ;
+}
+
+.equipefoto {
+    width: 600px;
+}
+
+@media screen and (max-width: 1020px) {
+    .imgEp {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+    
+    .equipefoto {
+        width: 400px;
+    }
+
+    .object p{
+        color: #000000;
+        text-align:justify;
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+
+    .object h1{
+        color: #0057bb;
+        text-align: center;
+        font-size: 35px;
+    }
+    
+}

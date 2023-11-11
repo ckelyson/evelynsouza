@@ -1,0 +1,66 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 ;
+  background-color: #000000;
+  background-size: 200%;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .logo-container h1{
+    background-image: linear-gradient(to left, #3150ff, #00028f);
+    background-size: 300% 300%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    animation:  anime 1s infinite alternate;
+    font-size: 30px;
+  }
+
+  @keyframes anime {
+    from {
+        background-position: 0 40%;
+    }
+    to {
+      background-position: 100% 0;
+    }
+  }
+  
+  .rotating-logo {
+    width: 60px;
+    animation: spin 9s linear infinite; /* ajustar a duração e animação da logo */
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  @media screen and (max-width: 1020px) {
+    .logo-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      justify-content: center;
+      width: 35%;
+    }
+  
+    .logo-container h1{
+      font-size: 20px;
+    }
+
+    .rotating-logo {
+      width: 70px;
+    }
+  }

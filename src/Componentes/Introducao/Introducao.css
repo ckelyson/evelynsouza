@@ -1,0 +1,83 @@
+section {
+    padding: 0px 4%;
+    background: #000000;
+}
+
+.foto {
+    width: 240px;
+}
+
+.flex {
+    display: flex;
+}
+
+section.topoSite .flex {
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topoSite h1 {
+    color: #ffffff;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.topoSite .txtDoSite p{
+    color: #ffffff;
+    margin: 40px 0;
+}
+
+.botaoContato button {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #2339ff;
+    color: #fff;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px #152dff;
+    transition: 0.5s;
+}
+
+.botaoContato button:hover{
+    box-shadow: 0px 0px 10px #2d42ff;
+    transform: scale(1.05);
+}
+
+@media screen and (max-width: 1020px) {
+    section {
+        padding: 0px 2%;
+        background: #000;
+    }
+    
+    .flex {
+        flex-direction: column-reverse;
+    }
+    .topoSite h1 {
+        font-size: 18px;
+        text-align: center;
+        margin: 5px;
+    }
+    section.topoSite {
+        padding: 0;
+    }
+    
+    section.topoSite .flex{
+        gap: 0px;
+    }
+    .imgagemDoTopo{
+        margin: 20px;
+    }
+   
+    .botaoContato{
+        display: flex;
+        justify-content: center;
+        margin: 30px;
+    }
+    .txtDoSite {
+        background: #00000044;
+        box-shadow: -3px -24px 30px 20px #000000;
+    }
+}

@@ -64,8 +64,10 @@ function CursosCertificacoes () {
                            Gestão Ágil que tem sido de grande interesse das empresas multinacionais.
                         </p>
                     </div>
-                    <img src={certificado} className='certificado'/>
-                    <img src={certificadoPos} className='certificado'/>
+                    <div className='imgCertificado'>
+                        <img src={certificadoPos} className='certificado'/>
+                        <img src={certificado} className='certificado'/>
+                    </div>
                 </div>
             </div>
         </section>

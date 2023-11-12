@@ -19,7 +19,17 @@
     margin-top: 29px;
 }
 
+.imgCertificado {
+    display: flex;
+    justify-content: center;
+}
+
 @media screen and (max-width:1020px) {
+    .imgCertificado {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     .cursos {
         background: #fff;
         padding: 20px 4%;
@@ -44,7 +54,7 @@
     .certificado {
         display: flex;
         align-items: center;
-        width: 200px;
+        width: 300px;
         margin: 20px 80px;
     }
 }

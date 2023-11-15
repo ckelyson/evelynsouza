@@ -80,11 +80,11 @@ function Softwares () {
                     </div>
                     <div className='icone'>
                         <img src={regulamentadoras} className='wcm'/>
-                        <p>NORMAS REGULAMENTADORAS</p>
+                        <p>NORMAS<br/> REGULAMENTADORAS</p>
                     </div>
                     <div className='icone'>
                         <img src={higiene} className='wcm'/>
-                        <p>NORMAS DE HIGIENE OCUPACIONAL</p>
+                        <p>NORMAS DE<br/> HIGIENE OCUPACIONAL</p>
                     </div>
                 </div>
             </div>

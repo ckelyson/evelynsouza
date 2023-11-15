@@ -10,6 +10,8 @@ import pdca from '../../assets/softwares/pdca.png'
 import cincoS from '../../assets/softwares/5s.png'
 import kaizen from '../../assets/softwares/statitica.png'
 import wcm from '../../assets/softwares/pesquisa.png'
+import regulamentadoras from '../../assets/softwares/normasRegulamentadoras.jpg'
+import higiene from '../../assets/softwares/hihieneOcupacional.jpg'
  
 
 function Softwares () {
@@ -58,7 +60,7 @@ function Softwares () {
                 </div>
 
                 <div className='ferramentas'>
-                    <h1>NORMAS REGULAMENTADORAS E<br/> NORMAS DE HIGIENE OCUPACIONAL</h1>
+                    <h1>METODOLOGIAS</h1>
                     
                     <div className='icone'>
                         <img src={pdca} className='pdca'/>
@@ -75,6 +77,14 @@ function Softwares () {
                     <div className='icone'>
                         <img src={wcm} className='wcm'/>
                         <p>WCM</p>
+                    </div>
+                    <div className='icone'>
+                        <img src={regulamentadoras} className='wcm'/>
+                        <p>NORMAS REGULAMENTADORAS</p>
+                    </div>
+                    <div className='icone'>
+                        <img src={higiene} className='wcm'/>
+                        <p>NORMAS DE HIGIENE OCUPACIONAL</p>
                     </div>
                 </div>
             </div>

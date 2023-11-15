@@ -19,7 +19,7 @@ function ExperienciaProfissional () {
                     </div>
                     <div className='experiencias'>
                         <h1>ANALISTA DE ENGENHARIA DE SEGURANÇA DO TRABALHO NA C&B CONSULTORIA DE SEGURANÇA OCUPACIONAL E AMBIENTAL – BELO JARDIM </h1>
-                        <p>Agosto de 2022 – março de 2023. </p>
+                        <p>Agosto de 2022 – Atual. </p>
                         <li>Desenvolver e ministrar treinamentos de integração de segurança, NR 6, NR 34, NR NR 12, NR 17, NR 23, 5S, entre outros;</li>
                         <li>Realizar medições de Higiene Ocupacional nas empresas; calor, ruído, vibração;</li>
                         <li>Elaborar laudos técnicos e normativos, de acordo com a necessidade;</li>

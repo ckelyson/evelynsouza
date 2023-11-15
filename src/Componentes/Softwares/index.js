@@ -58,7 +58,8 @@ function Softwares () {
                 </div>
 
                 <div className='ferramentas'>
-                    <h1>METODOLOGIAS</h1>
+                    <h1>NORMAS REGULAMENTADORAS</h1>
+                    <h1>NORMAS DE HIGIENE OCUPACIONAL</h1>
                     <div className='icone'>
                         <img src={pdca} className='pdca'/>
                         <p>PDCA</p>

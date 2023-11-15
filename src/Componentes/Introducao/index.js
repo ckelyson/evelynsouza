@@ -10,7 +10,7 @@ function Introducao () {
                         <div className='txtDoSite'>
                             <h1>ENGENHEIRA MECÂNICA.<span></span></h1>
                             <h1>ENGENHEIRA DE SEGURANÇA DO TRABALHO.<span></span></h1>
-                            <h1>MESTRADO EM ENGENHEIRA MECÂNICA | UFCG<span>.</span></h1>
+                            <h1>MESTRE EM ENGENHEIRA MECÂNICA | UFCG<span>.</span></h1>
                             <p>
                             </p>
                             <div className='botaoContato'>

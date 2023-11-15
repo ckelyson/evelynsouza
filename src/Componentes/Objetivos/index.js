@@ -1,5 +1,4 @@
 import './Objetivos.css'
-import equipe from '../../assets/equipe.jpg'
 
 function Objetivos () {
     return (
@@ -7,7 +6,6 @@ function Objetivos () {
         <div className='object'>
             <h1>SOBRE MIM</h1>
             <div className='imgEp'>
-                <img src={equipe} className='equipefoto'/>
                 <p> Aos 27 anos, sou uma engenheira natural de Pernambuco,
                     apaixonada pela área da mecânica e da segurança do trabalho,
                     paixão esta que me levou a conquistar não apenas um, mas dois títulos acadêmicos,

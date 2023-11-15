@@ -3,7 +3,8 @@
 }
 
 .object {
-    margin: 100px 4%;
+    margin: 20px 4%;
+    margin-bottom: 70px;
     background: #ffffff;
 }
 
@@ -11,6 +12,7 @@
     color: #0057bb;
     text-align: center;
     font-size: 42px;
+    margin-bottom: 10px;
 }
 
 .object p{
@@ -22,15 +24,17 @@
 
 .imgEp {
     display: flex;
-    margin: 20px;
+    align-items: center;
+    flex-direction: column;
 }
 
 .imgEp img {
     margin: 0 30px ;
+    margin-bottom: 10px;
 }
 
 .equipefoto {
-    width: 600px;
+    width: 700px;
 }
 
 @media screen and (max-width: 1020px) {
@@ -38,11 +42,10 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 0;
     }
     
     .equipefoto {
-        width: 400px;
+        width: 370px;
     }
 
     .object p{

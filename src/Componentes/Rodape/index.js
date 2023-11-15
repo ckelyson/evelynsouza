@@ -8,7 +8,7 @@ const Footer = () => {
             <div className='sobre'>
                 <h1>Sobre</h1>
                 <p className="footer-text">Evelyn Louise Santos Souza </p>
-                <p className='footer-text'>26 anos</p>
+                <p className='footer-text'>27 anos</p>
                 <p>Feminino</p>
                 <p>Solteira</p>
             </div>

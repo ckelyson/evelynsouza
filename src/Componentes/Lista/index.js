@@ -32,7 +32,7 @@ const NavigationMenu = () => {
           </li>
           <li>
             <a href="#objetivos">
-              <i className="bi bi-file-earmark-text"></i> Objetivos
+              <i className="bi bi-file-earmark-text"></i> Sobre Mim
             </a>
           </li>
           <li>
